@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            padding: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(164, 33, 164)
+        }
+
+        #cards {
+            padding: 3%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card {
+            color: white;
+            height: 250px;
+            width: 200px;
+            background-color: rgb(65, 12, 106);
+            margin: 0 30px;
+        }
+
+        .card:hover {
+            opacity: 0.33;
+        }
+
+
+
+        .card:hover:nth-child(3) {
+            height: 500px;
+            width: 500px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CARDS</h1>
+    <div id="cards">
+        <div class="card" style="background-color:yellow">
+        </div>
+        <div class="card" style="background-color: plum;">
+        </div>
+        <div class="card" style="background-color: rgb(227, 72, 72);">
+        </div>
+        <div class="card" style="background-color: rgb(52, 134, 52);">
+        </div>
+        <div class="card" style="background-color: rgb(75, 23, 179); ">
+        </div>
+    </div>
+</body>
+
+</html>
